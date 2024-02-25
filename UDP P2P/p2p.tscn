@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://rthmbxvfme3w"]
+
+[ext_resource type="Script" path="res://server.gd" id="1_28i04"]
+[ext_resource type="Script" path="res://client.gd" id="2_sclec"]
+
+[node name="p2p" type="Node"]
+
+[node name="client" type="Node" parent="."]
+script = ExtResource("2_sclec")
+
+[node name="server" type="Node" parent="."]
+script = ExtResource("1_28i04")
